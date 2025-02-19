@@ -116,6 +116,8 @@ public class Cliente
 
 }
 ```
+![image](https://github.com/user-attachments/assets/eae0532c-50ba-44dc-8073-08ea8881fa7d)
+
 > CuentaAhorro.cs
 ```CSharp
 namespace Financiera.WebApp.Modelos;
@@ -204,6 +206,8 @@ public class CuentaAhorro
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/e885bfe1-dc93-4955-ada4-07ef5eb00fad)
+
 > MovimientoCuenta.cs
 ```CSharp
 namespace Financiera.Dominio.Modelos;
@@ -273,6 +277,8 @@ public class MovimientoCuenta
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/95128aaa-c948-4003-8c65-2085f0f79c37)
+
 > TipoMovimiento.cs
 ```CSharp
 namespace Financiera.WebApp.Modelos;
@@ -315,6 +321,8 @@ public class TipoMovimiento
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/eb5eae85-7f39-4189-bc56-8c7ef7504955)
+
 4. En Visual Studio Code, dentro del proyecto Financiera.WebApp, crear la carpeta Mapeos, y dentro de esta crear los siguientes archivos con lo siguientes contenidos:
 > ClienteConfiguracion.cs
 ```CSharp
@@ -333,6 +341,8 @@ public class ClienteConfiguracion : IEntityTypeConfiguration<Cliente>
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/29ff8a8b-5763-4d7f-af0c-936dc52f2e60)
+
 > CuentaAhorroConfiguracion.cs
 ```CSharp
 using Microsoft.EntityFrameworkCore;
@@ -352,6 +362,8 @@ public class CuentaAhorroConfiguracion : IEntityTypeConfiguration<CuentaAhorro>
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/f7f6a495-c41c-4fe9-90fe-46b442112151)
+
 > MovimientoCuentaConfiguracion.cs
 ```CSharp
 using Microsoft.EntityFrameworkCore;
@@ -373,6 +385,8 @@ public class MovimientoCuentaConfiguracion : IEntityTypeConfiguration<Movimiento
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/00413b03-1e02-4781-ba06-bda2c8e37c59)
+
 > TipoMovimientoConfiguracion.cs
 ```CSharp
 using Microsoft.EntityFrameworkCore;
@@ -390,6 +404,8 @@ public class TipoMovimientoConfiguracion : IEntityTypeConfiguration<TipoMovimien
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/ec540cef-7df2-4324-808f-48322249e977)
+
 7. En Visual Studio Code, dentro del proyecto Financiera.WebApp, en la raiz crear el siguiente archivo y contenido:
 > FinancieraContexto.cs
 ```CSharp
@@ -438,6 +454,7 @@ public class FinancieraContexto : DbContext
     } 
 }
 ```
+![image](https://github.com/user-attachments/assets/9ace4a2a-fc38-4ca2-948b-595ba0e18730)
 
 8. En el terminal, ejecutar el siguiente comando para iniciar una base de datos MariaDB:
 ```Bash
