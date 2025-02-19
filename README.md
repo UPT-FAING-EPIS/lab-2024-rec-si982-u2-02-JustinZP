@@ -475,6 +475,7 @@ eb create dev-env -s -sr LabRole -ip LabInstanceProfile -db
 ```Bash
 aws rds describe-db-instances
 ```
+![image](https://github.com/user-attachments/assets/1320faf9-9321-4e6b-aeaa-8475e50c81ab)
 
 10. En el terminal, ejecutar el siguiente comando para añadir el puerto de entrada a la base de datos (1521) el cual servira para la comunicación, reemplazar el valor de group-id por el valor de VpcSecurityGroupId obtenido en el paso anterior
 ```Bash
