@@ -60,6 +60,8 @@
 2. En el terminal, ubicarse en un ruta que no sea del sistema y ejecutar los siguientes comandos.
 ```Bash
 md src
+![image](https://github.com/user-attachments/assets/50603439-0f1d-4af4-a13f-9d3b668f1102)
+
 cd src
 dotnet new blazor -o Financiera.WebApp
 dotnet add package Microsoft.EntityFrameworkCore --version 8.0.0
