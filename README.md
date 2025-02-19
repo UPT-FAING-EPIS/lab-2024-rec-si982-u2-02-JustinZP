@@ -462,6 +462,13 @@ md site && cs site
 eb init Financiera.WebApp -r us-east-1 -p 64bit-amazon-linux-2023-v3.3.0-running-.net-8
 eb create dev-env -s -sr LabRole -ip LabInstanceProfile -db
 ```
+![image](https://github.com/user-attachments/assets/da6bf2ca-ba6d-4dff-bdde-1edf9ee3e335)
+
+![image](https://github.com/user-attachments/assets/f7afa569-7e48-431f-b225-2a5b8dd7f4da)
+
+![image](https://github.com/user-attachments/assets/d7317655-55e3-410e-a9bf-5b1c93c7b019)
+
+
 > Nota: para la base de datos se utilizar las credenciales usuario: sqladmin y password: upt.2025
 
 9. En el terminal, verificar las instancias de base de datos creadas.
