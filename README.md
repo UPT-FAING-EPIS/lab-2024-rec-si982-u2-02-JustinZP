@@ -60,8 +60,6 @@
 2. En el terminal, ubicarse en un ruta que no sea del sistema y ejecutar los siguientes comandos.
 ```Bash
 md src
-![image](https://github.com/user-attachments/assets/50603439-0f1d-4af4-a13f-9d3b668f1102)
-
 cd src
 dotnet new blazor -o Financiera.WebApp
 dotnet add package Microsoft.EntityFrameworkCore --version 8.0.0
@@ -75,6 +73,8 @@ dotnet add package Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdap
 dotnet tool install -g dotnet-ef --version 8.0.0
 dotnet tool install -g dotnet-aspnet-codegenerator --version 8.0.0
 ```
+![image](https://github.com/user-attachments/assets/5f9b5317-bf23-438c-bcd7-b364de002e3c)
+![image](https://github.com/user-attachments/assets/f0d39eaa-312d-447d-b448-96792b65b987)
 
 3. Abrir Visual Studio Code y elegir la carpeta del proyecto, dentro del proyecto Financiera.WebApp, crear la carpeta Modelos, y dentro de esta crear los siguientes archivos con lo siguientes contenidos:
 > Cliente.cs
